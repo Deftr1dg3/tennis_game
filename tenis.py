@@ -679,7 +679,11 @@ class Frame(wx.Frame):
 
 # ....................Call the game....................................................
 
+def main():
+    app = wx.App()
+    Frame(None)
+    app.MainLoop()
 
-app = wx.App()
-Frame(None)
-app.MainLoop()
+
+if __name__ == "__main__":
+    main()
